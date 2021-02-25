@@ -1,0 +1,316 @@
+/*Fonte do Site*/
+body{
+    font-family: 'Chilanka', cursive;;
+}
+/*Cabecalho --- Header*/
+header{
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+.cabecalho{
+    background: orange;
+    padding: 20px 0 ;    
+    border: 5px solid black;
+    border-bottom-width: 10px;
+}
+.imgCabecalho:hover{
+    opacity: 0.3;
+    transition: 1s;
+    transform: rotate(360deg);
+}
+
+
+nav{
+    position:absolute;
+    top:110px;
+    right: 10px;
+    
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto; 
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: white;
+    transform: scale(1.5);
+    
+}
+.icone{
+    width: 25px;
+    
+}
+.icone:hover{
+    
+    transform: scale(1.5);
+}
+/*Rodape*/
+
+footer{
+    text-align: center;
+    background: url("../Imagens/bg.jpg");
+}
+
+.Copyright{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.logoRodape{
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.logoRodape:hover{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transform: scale(1.5);
+}
+/*Página Inicial*/
+
+.banner{
+    width: 100%;
+}
+.tituloPrincipal:first-letter{
+    font-weight: bold;
+}
+.tituloPrincipal:before{
+    content: "✮";
+}
+.tituloPrincipal:after{
+    content: "✮";
+}
+.tituloPrincipal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+.principal {
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+}
+.principal p{
+    margin: 0 0 1em;
+}
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.imgBeneficios{
+    width: 60%;
+    box-shadow:  10px 10px 30px black    ;
+}
+    .imgBeneficios:hover{
+        opacity: 0.3;
+        transition: 1s;
+        transform: rotate(360deg);
+    }
+.beneficios{
+    padding: 3em 0;
+    background: #888888;
+}
+
+.utensilios{
+    width: 150px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.conteudoBeneficios{
+    width: 640px;
+    margin: 0 auto;
+}
+.listaBeneficios{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+.listaBeneficios li{
+    padding: 15px;
+}
+.itens:before{
+    content: "➥";
+}
+.mapa{
+    padding: 3em 0;
+	background: linear-gradient(#FEFEFE, #888888);
+}
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+.mapaConteudo{
+    width: 940px;
+    margin: 0 auto;
+}
+.video{
+    width: 560px;
+    margin: 2em auto;
+    box-shadow:  10px 20px 30px black ;
+}
+
+
+/*Página de Produtos*/
+.principalProdutos{
+    background: linear-gradient(white,grey);
+}
+.imgProdutos{
+    width: 95%;
+    height: 200px;
+}
+.produtosAlign {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px ;
+    
+}
+
+.produtosAlign li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    background: orange;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-radius: 30px 10px 30px 10px;
+    border: 5px solid black;
+    border-bottom-width: 10px;
+    margin-top: 20px;
+}
+
+.produtosAlign li:hover{
+    box-shadow:  15px 25px 35px darkgreen ;
+}
+.produtosAlign li:hover h2{
+    font-size: 35px;
+}
+
+.produtosAlign li:active{
+    border:5px solid green;
+}
+
+.produtosAlign h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.produto_decricao{
+    font-size: 18px;
+}
+.produto-preco{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+/*Página de Contato*/
+main{
+    width: auto;;
+    background: linear-gradient(white,grey);
+}
+form{
+    margin-top: 40px;
+    margin-left: 40px;
+    
+}
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.inputStyle{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox{
+    margin: 20px 0;
+}
+.btnEnviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: 1s background;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.btnEnviar:hover{
+    background: lightgreen;
+    transform: rotate(360deg) scale(1.5);
+    transition: 1.5s;
+}
+
+table {
+    margin: 20px 0 40px;
+
+}
+
+thead{
+    background: black;
+    color: white;
+    font-weight: bold;
+}
+.tbody{
+    background: orange;
+    color:white;
+    font-weight: bold;
+    
+}
+
+.td{
+    padding: 8px 15px ;
+    border: 3px solid black;
+    border-style: groove;
+    
+}
+
+@media screen and (max-width: 480px){
+    .caixa, .principal, .mapa, .beneficios, .mapaConteudo,.video,.conteudoBeneficios{
+        width: auto;
+    }
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .listaBeneficios,.imgBeneficios{
+        width: 100%;
+    }
+    .produtosAlign,.inputStyle,{
+        width: auto;
+    }
+    .checkbox{
+        margin: auto;
+    }
+
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Barbearia Alura - Produtos</title>
+
+        
+        <link rel="stylesheet" href="../CSS/reset.css">
+        <link rel="stylesheet" href="../CSS/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="cabecalho">            
+            <div class="caixa">
+                <h1>
+                    <a href="index.html">
+                        <img class="imgCabecalho"src="../Imagens/logo.png" alt="logoBarbearia">
+                    </a>
+                </h1>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">
+                                <img class="icone"src="../Imagens/home.png" alt="Icone Home">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="pagProdutos.html">
+                                <img class="icone" src="../Imagens/produtos.png" alt="Icone de Produto">
+                                Produtos
+                            </a>
+                        </li>
+                        <li>
+                            <a href="pagContato.html">
+                                <img class="icone" src="../Imagens/contato.png" alt="Icone de Contato">
+                                Contatos
+                            </a>
+                        </li>
+                    </ul>
+            </nav>
+            </div>
+        </header>
+        <main>
+            <form>
+                <label for="nomeCompleto">Nome Completo:</label>
+                <input class="inputStyle" type="text" id="nomeCompleto" required placeholder="Digite seu nome completo">
+                
+                <label for="email">Email:</label>
+                <input class="inputStyle" type="email" id="email" required placeholder="SeuEmail@Exemplo.com">
+                
+                <label for="telefoneFixo">Telefone Fixo:</label>
+                <input class="inputStyle" type="tel" id="telefoneFixo" required placeholder="(DDD) X-XXXX-XXXX">
+                
+                <label for="telefoneCelular">Telefone Celular:</label>
+                <input class="inputStyle" type="tel" id="telefoneCelular" required placeholder="(DDD) X-XXXX-XXXX">
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea class="inputStyle" cols="69" rows="7" id="mensagem" required placeholder="Digite aqui sua mensagem"></textarea>
+                <fieldset>
+                    <legend>Como prefere ser contatado:</legend>
+                    <table>
+                    <tbody>
+                        <tr>
+                            <td><label for="rbEmail">Email</label></td>
+                            <td> <input type="radio" name="contato" id="rbEmail" value="email" checked></td>
+                        </tr>
+                        <tr>
+                            <td> <label for="rbWhatsapp">Whatsapp</label></td>
+                            <td>  <input type="radio" name="contato" id="rbWhatsapp" value="whatsapp"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="rbTelefoneCelular">Telefone Celular</label></td>
+                            <td><input type="radio" name="contato" id="rbTelefoneCelular" value="telefoneCelular"></td>
+                        </tr>
+                        <tr>
+                            <td>  <label for="rbTelefoneFixo">Telefone Fixo</label></td>
+                            <td>  <input type="radio" name="contato" id="rbTelefoneFixo" value="telefoneFixo"></td>
+                        </tr>
+                   
+                       
+                </tbody>
+                    
+            </table>  
+                    
+                        
+                    <fieldset>
+                        <legend>Em qual horário gostaria de ser atendido?</legend>
+                        <table>
+                            <thead>
+                               <tr>
+                                   <th class="td">Dia</th>
+                                   <th class="td">Horário</th>
+                               </tr>
+                            </thead>
+                            <tbody class="tbody">
+                               <tr>
+                                   <td class="td">Segunda</td>
+                                   <td class="td">8:00 ~ 20:00</td>
+                               </tr>
+                               <tr>
+                                   <td class="td">Quarta</td>
+                                   <td class="td">8:00 ~ 20:00</td>
+                               </tr>
+                               <tr>
+                                   <td class="td">Sexta</td>
+                                   <td class="td">8:00 ~ 20:00</td>
+                               </tr>
+                            </tbody>
+                        </table>
+                        <input class="inputStyle"type="time">
+                        </fieldset>
+                        <label>
+                            <input type="checkbox" class="checkbox">Gostaria de receber nossas novidades por E-mail?
+                        </label>
+                        <input type="submit" name="contato" value="Enviar Formulario" class="btnEnviar">
+                </fieldset>            
+             </form>             
+        </main>
+        <footer>
+            <img src="../Imagens/logo-branco.png" alt="logoBranco">
+            
+            <p class="Copyright">Minhas Redes Sociais:</p>
+            <a href="https://www.linkedin.com/in/jonathan-henrique-1b4a69144/" target="_blank">
+                <img src="../Imagens/linkedin.png" alt="linkedinLogo" class="logoRodape">
+            </a>
+            <a href="http://github.com/henrithanN"target="_blank">            
+                <img src="../Imagens/github.png" alt="githubLogo" class="logoRodape">
+            </a>
+        </footer>
+
+        
+    </body>
+</html>
